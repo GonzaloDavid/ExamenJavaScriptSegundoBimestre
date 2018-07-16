@@ -1,0 +1,19 @@
+<html>
+<head>
+  <title>DETALLE AUTOR</title>
+</head>
+<body>
+<div class="container">
+  <h3>Atributos Libros</h3>
+  <ngb-tabset>
+    <a *ngFor="let autor of autorp" >
+      <ngb-tab title={{autor.nombre}}>
+        <ng-template ngbTabContent>
+          <p>parrafo.</p>
+        </ng-template>
+      </ngb-tab>
+    </a>
+  </ngb-tabset>
+</div>
+</body>
+</html>

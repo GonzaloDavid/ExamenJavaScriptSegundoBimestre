@@ -2,21 +2,22 @@ import { Component, OnInit } from '@angular/core';
 import {AutorService} from '../../Services/autor.service';
 import {Autor} from '../../Autor';
 @Component({
-  selector: 'app-autor',
-  templateUrl: './autor.component.html',
-  styleUrls: ['./autor.component.css']
+  selector: 'app-detalle-libro',
+  templateUrl: './detalle-libro.component.html',
+  styleUrls: ['./detalle-libro.component.css']
 })
-export class AutorComponent implements OnInit {
-  cuerpoCard='Some quick example text to build on the card title and make up the bulk of the card\'s content.';
+export class DetalleLibroComponent implements OnInit {
+
   constructor(private autorService:AutorService) { }
 
   ngOnInit() {
-    this.getAutores();
+    this.getLibros();
   }
   autorp : Autor[];
-  getAutores(): void {
+  getLibros(): void {
     this.autorService.getAutores()
       .subscribe(autores => this.autorp = autores);
     console.log(this.autorp)
   }
+
 }

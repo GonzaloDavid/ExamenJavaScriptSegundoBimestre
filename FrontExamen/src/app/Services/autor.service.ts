@@ -18,19 +18,14 @@ private URL ='http://localhost:1337/Autor';
   getAutores (): Observable<Autor[]> {
     return this.http.get<Autor[]>(this.URL)
       .pipe(
-        catchError(this.handleError('getHeroes', []))
+        catchError(this.handleError('getAutores', []))
       );
   }
   private handleError<T> (operation = 'operation', result?: T) {
     return (error: any): Observable<T> => {
 
-      // TODO: send the error to remote logging infrastructure
       console.error(error); // log to console instead
 
-      // TODO: better job of transforming error for user consumption
-
-
-      // Let the app keep running by returning an empty result.
       return of(result as T);
     };
   }

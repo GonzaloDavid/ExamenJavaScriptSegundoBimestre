@@ -1,5 +1,10 @@
+import {Libro} from "./Libro";
+
 export class Autor {
-  id: number;
-  name: string;
+  nombre: string;
+  apellido: string;
+  numeroLibros: string;
+  fechaNacimiento: string;
+  libros: Libro;
 
 }

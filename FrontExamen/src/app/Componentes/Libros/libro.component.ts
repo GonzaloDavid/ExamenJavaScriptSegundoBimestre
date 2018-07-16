@@ -2,12 +2,12 @@ import { Component, OnInit } from '@angular/core';
 import {AutorService} from '../../Services/autor.service';
 import {Autor} from '../../Autor';
 @Component({
-  selector: 'app-autor',
-  templateUrl: './autor.component.html',
-  styleUrls: ['./autor.component.css']
+  selector: 'app-libro',
+  templateUrl: './libro.component.html',
+  styleUrls: ['./libro.component.css']
 })
-export class AutorComponent implements OnInit {
-  cuerpoCard='Some quick example text to build on the card title and make up the bulk of the card\'s content.';
+export class LibroComponent implements OnInit {
+
   constructor(private autorService:AutorService) { }
 
   ngOnInit() {
@@ -19,4 +19,5 @@ export class AutorComponent implements OnInit {
       .subscribe(autores => this.autorp = autores);
     console.log(this.autorp)
   }
+
 }
