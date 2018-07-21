@@ -3,20 +3,21 @@
 <head></head>
 <title></title>
 <body>
-
 <a *ngFor="let autor of autorp" class="col-1-4">
   <div class="card" style="width: 18rem;">
     <img class="card-img-top" src="https://imagessl7.casadellibro.com/a/l/t0/77/9788415116677.jpg" alt="Card image cap">
     <div class="card-body">
       <h5 class="card-title">{{autor.nombre}}</h5>
-      <p class="card-text">{{cuerpoCard}}</p>
-      <a href="#" class="btn btn-primary">Go somewhere</a>
+      <p class="card-text">Apellido: {{autor.apellido}}</p>
+      <p class="card-text">Apellido: {{autor.id}}</p>
+     <p class="card-text">Fecha Nacimiento: {{autor.fechaNacimiento}}</p>
+      <p class="card-text">Numero de libros: {{autor.numeroLibros}}</p>
+      <p class="card-text">Libros: {{autor.libros}}</p>
+      <a href="#" class="btn btn-primary" [routerLink]="['/paginaD/',autor.id]">Mostrar Libros</a>
     </div>
   </div>
 </a>
-
 <div class="div">
-
 </div>
 
 </body>

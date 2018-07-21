@@ -17,7 +17,7 @@ export class DetalleLibroComponent implements OnInit {
   getLibros(): void {
     this.autorService.getAutores()
       .subscribe(autores => this.autorp = autores);
-    console.log(this.autorp)
+    //console.log(this.autorp)
   }
 
 }

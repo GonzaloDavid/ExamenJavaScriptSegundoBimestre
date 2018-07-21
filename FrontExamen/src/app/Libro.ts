@@ -3,6 +3,7 @@ export class Libro {
   numeroPaginas: string;
   edicion: string;
   fechaPublicacion: string;
-  nombreEditorial: string;
+  nombreEditorial: string
+  id : number;
 
 }

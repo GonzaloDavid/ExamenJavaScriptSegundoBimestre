@@ -4,41 +4,27 @@
 </head>
 <title></title>
 <body>
+<ul>
+  <li>
+    <a [routerLink]="['/home']"> Home</a>-
+  </li>
+  <li>
+    <a [routerLink]="['/paginaD']"> Pagina2</a>-
+  </li>
+  <li>
+    <a [routerLink]="['/pagina3']"> Pagina3</a>-
+
+  </li>
+  <li style="float:right">
+    <a [routerLink]="['/pagina4']"><img src="https://d1nhio0ox7pgb.cloudfront.net/_img/i_collection_png/512x512/plain/shopping_cart2.png" border="1"  width="50" height="50"></a>
+  </li>
+  <li style="float:right">
+    <a> Gonzalo Proaño</a>
+  </li>
+</ul>
+<br>
 <div class="container">
-  <h1>EXAMEN DE JAVASCRIPT</h1>
-  <app-input-search></app-input-search>
-  <br>
-  <br>
-  <div class="row">
-    <div class="col-1-4">
-        <app-autor></app-autor>
-    </div>
-  </div>
-
-<div class="row">
-  <div class="col-6">
-    <app-detalle-autor></app-detalle-autor>
-  </div>
-  <div class="col-6">
-    <img class="card-img-top" src="http://www.nerdix.cl/wp-content/uploads/2017/07/spiderman_destacado-696x345.jpg" alt="Card image cap">
-  </div>
-</div>
-  <div class="row">
-    <app-libro></app-libro>
-  </div>
-  <div class="row">
-    <div class="col-6">
-      <img class="card-img-top" src="http://www.nerdix.cl/wp-content/uploads/2017/07/spiderman_destacado-696x345.jpg" alt="Card image cap">
-    </div>
-    <div class="col-6">
-      <app-detalle-libro></app-detalle-libro>
-    </div>
-
-  </div>
-  <div class="row">
-    <app-facturacion></app-facturacion>
-  </div>
-
+  <router-outlet></router-outlet>
 </div>
 </body>
 </html>

@@ -13,7 +13,12 @@ import { FacturacionComponent } from './Componentes/facturacion/facturacion.comp
 import { ModalDatosComponent } from './Componentes/modal-datos/modal-datos.component';
 import {MatInputModule} from '@angular/material';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
-
+import {routing,appRoutingProviders} from './Rutas/app.routing';
+import { HomeComponent } from './Componentes/home/home.component';
+import { Pagina2Component } from './Componentes/pagina2/pagina2.component';
+import { Pagina3Component } from './Componentes/pagina3/pagina3.component';
+import { Pagina4Component } from './Componentes/pagina4/pagina4.component';
+import { FormularioCuentaComponent } from './Componentes/formulario-cuenta/formulario-cuenta.component'
 
 @NgModule({
   declarations: [
@@ -24,12 +29,17 @@ import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
     DetalleAutorComponent,
     DetalleLibroComponent,
     FacturacionComponent,
-    ModalDatosComponent
+    ModalDatosComponent,
+    HomeComponent,
+    Pagina2Component,
+    Pagina3Component,
+    Pagina4Component,
+    FormularioCuentaComponent
   ],
   imports: [
-    BrowserModule, HttpClientModule, BrowserAnimationsModule,FormsModule,ReactiveFormsModule,MatInputModule,NgbModule.forRoot()
+    BrowserModule, HttpClientModule, BrowserAnimationsModule,FormsModule,ReactiveFormsModule,MatInputModule,routing, NgbModule.forRoot()
   ],
-  providers: [],
+  providers: [appRoutingProviders],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
