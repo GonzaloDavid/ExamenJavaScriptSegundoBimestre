@@ -21,11 +21,23 @@
 </div>
 <br>
 <br>
-  <div class="card" style="width: 18rem;">
-    <img class="card-img-top" src="https://static.tvtropes.org/pmwiki/pub/images/mcu_thor.png">
-    <div class="card-body">
-      <p class="card-text">hola</p>
-      <p class="card-text">{{libro}}</p>
-      <p class="card-text">locooooo</p>
+<div class="row">
+  <a *ngFor="let libroArray of libro">
+    <div class="col-4">
+      <div class="card" style="width: 18rem;">
+        <img class="card-img-top" src="https://static.tvtropes.org/pmwiki/pub/images/mcu_thor.png">
+        <div class="card-body">
+          <p class="card-text"><strong>DATOS DE LIBRO</strong></p>
+          <p class="card-text">Nombre: {{libroArray["nombre"]}}</p>
+          <p class="card-text">Numero de paginas :{{libroArray["numeroPaginas"]}}</p>
+          <p class="card-text">Edicion :{{libroArray["edicion"]}}</p>
+          <p class="card-text">Fecha Publicacion: {{libroArray["fechaPublicacion"]}}</p>
+          <p class="card-text">Nombre Editorial: {{libroArray["nombreEditorial"]}}</p>
+
+          <a href="#" class="btn btn-primary" [routerLink]="['/pagina3/',libroArray['id']]">MOSTRAR DETALLE</a>
+        </div>
+      </div>
     </div>
-  </div>
+  </a>
+</div>
+

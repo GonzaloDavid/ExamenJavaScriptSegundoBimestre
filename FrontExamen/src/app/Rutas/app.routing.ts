@@ -14,9 +14,9 @@ const appRoutes:Routes=[
   {path:'home',component: HomeComponent},
   {path: 'autor/:id/libro/:idlibro', component: LibroComponent},
   {path: 'paginaD/:id', component: Pagina2Component},
-  {path: 'pagina3', component: Pagina3Component},
+  {path: 'pagina3/:id', component: Pagina3Component},
   {path: 'pagina4', component: Pagina4Component},
-  {path:'**',component:AutorComponent}
+  {path:'**',component:HomeComponent}
   ];
 
 export const appRoutingProviders :any[]=[];

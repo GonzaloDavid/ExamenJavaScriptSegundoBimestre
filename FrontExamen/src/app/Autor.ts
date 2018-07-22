@@ -7,5 +7,4 @@ export class Autor {
   numeroLibros: string;
   fechaNacimiento: string;
   libros: Libro[];
-
 }

@@ -22,25 +22,12 @@ export class Pagina2Component implements OnInit {
       console.log('Esto es lo que muestra en los parametros que envia',params);
       this.servicioAutor.getAutorById(params[`id`]).subscribe(autor => {
         this.autor= autor;
-       // console.log('autor',this.autor)
+        console.log('JSON AUTOR',this.autor)
       }),
       this.servicioLibro.getLibroByOwner(params[`id`]).subscribe(libro => {
         this.libro= libro;
-        //console.log('libro',this.libro)
+        console.log('JSON LIBRROO:',this.libro)
       })
-    })
-    this.rutas.params.subscribe(params =>{
-      this.autor = new Autor();
-      this.libro = new Libro();
-      console.log('Esto es lo que muestra en los parametros que envia',params);
-      this.servicioAutor.getAutorById(params[`id`]).subscribe(autor => {
-        this.autor= autor;
-        // console.log('autor',this.autor)
-      }),
-        this.servicioLibro.getLibroByOwner(params[`id`]).subscribe(libro => {
-          this.libro= libro;
-          console.log('si ha estdo llegando ',this.libro)
-        })
     })
   }
   ngOnInit() {

@@ -31,7 +31,10 @@ export class LibroService {
     const url = `${this.urlBase}/Libro?nombre=${name}`;
     return this.http.get<Libro[]>(url);
   }
-
+  getLibroById(id: number): Observable<Libro>{
+    const url = `${this.urlBase}/Libro/${id}`;
+    return this.http.get<Libro>(url);
+  }
   private handleError<T> (operation = 'operation', result?: T) {
     return (error: any): Observable<T> => {
 
