@@ -15,7 +15,11 @@
       </div>
       <div class="col-6" align="center">
         <br><br><br><br>
-        <button type="button"  class="btn btn-primary" [routerLink]="['/pagina4/',libro.id]" >AÑADIR AL CARRITO</button>
+        <button (click)="add()" type="button"  class="btn btn-primary" [routerLink]="['/pagina4/',libro.id]" >AÑADIR AL CARRITO
+          <script type="text/javascript">
+            alert("AÑADIDO AL CARRITO");
+          </script>
+        </button>
       </div>
     </div>
   </div>

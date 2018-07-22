@@ -3,6 +3,7 @@ import {Autor} from "../../Autor";
 import {ActivatedRoute} from "@angular/router";
 import {LibroService} from "../../Services/libro.service";
 import {Libro} from "../../Libro";
+import {CarritoService} from "../../Services/carrito.service";
 
 @Component({
   selector: 'app-pagina3',
@@ -12,7 +13,8 @@ import {Libro} from "../../Libro";
 export class Pagina3Component implements OnInit {
   libro: Libro;
   constructor(private rutas:  ActivatedRoute,
-              private servicioLibro: LibroService)
+              private servicioLibro: LibroService,
+              private servicioCarrito: CarritoService)
   {
     this.rutas.params.subscribe(params =>{
       console.log('Esto es lo que muestra en los parametros que envia',params);
@@ -22,7 +24,10 @@ export class Pagina3Component implements OnInit {
         })
     })
   }
-
+  add(): void {
+    this.servicioCarrito.addCarrito(this.libro).subscribe(response => {
+    })
+  }
   ngOnInit() {
   }
 
