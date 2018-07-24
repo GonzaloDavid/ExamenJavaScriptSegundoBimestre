@@ -8,18 +8,9 @@ import {Autor} from '../../Autor';
 })
 export class AutorComponent implements OnInit {
   constructor(private autorService:AutorService) {
-
-
   }
   @Input() autorp : Autor[];
 
   ngOnInit() {
-    //this.getAutores();
   }
-
-  /*getAutores(): void {
-    this.autorService.getAutores()
-      .subscribe(autores => this.autorp = autores);
-    console.log(this.autorp)
-  }*/
 }

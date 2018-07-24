@@ -12,25 +12,25 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileColors">
+    <fileColor scope="All" color="Green" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="pagina2.component.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/FrontExamen/src/app/Componentes/pagina2/pagina2.component.ts">
+      <file leaf-file-name="pagina3.component.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/FrontExamen/src/app/Componentes/pagina3/pagina3.component.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-52">
-              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" selection-end-column="15" />
-              <folding>
-                <element signature="e#0#55#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="765">
+              <caret line="45" column="26" selection-start-line="45" selection-start-column="26" selection-end-line="45" selection-end-column="26" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="facturacion.component.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/FrontExamen/src/app/Componentes/facturacion/facturacion.component.ts">
+      <file leaf-file-name="app.routing.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/FrontExamen/src/app/Rutas/app.routing.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="33" column="33" lean-forward="true" selection-start-line="33" selection-start-column="33" selection-end-line="33" selection-end-column="33" />
+            <state relative-caret-position="68">
+              <caret line="12" column="45" selection-start-line="12" selection-start-column="45" selection-end-line="12" selection-end-column="45" />
               <folding>
                 <element signature="e#0#50#0" expanded="true" />
               </folding>
@@ -38,31 +38,32 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pagina4.component.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/FrontExamen/src/app/Componentes/pagina4/pagina4.component.html">
+      <file leaf-file-name="login.component.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/FrontExamen/src/app/Componentes/login/login.component.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="208">
-              <caret line="23" column="51" selection-start-line="23" selection-start-column="51" selection-end-line="23" selection-end-column="51" />
+            <state relative-caret-position="136">
+              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pagina3.component.spec.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/FrontExamen/src/app/Componentes/pagina3/pagina3.component.spec.ts">
+      <file leaf-file-name="pagina4.component.ts" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/FrontExamen/src/app/Componentes/pagina4/pagina4.component.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
+            <state relative-caret-position="442">
+              <caret line="41" column="1" lean-forward="true" selection-start-line="41" selection-start-column="1" selection-end-line="44" selection-end-column="5" />
               <folding>
-                <element signature="e#0#73#0" expanded="true" />
+                <element signature="e#0#50#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pagina3.component.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/FrontExamen/src/app/Componentes/pagina3/pagina3.component.html">
+      <file leaf-file-name="pagina4.component.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/FrontExamen/src/app/Componentes/pagina4/pagina4.component.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="182">
-              <caret line="19" column="37" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
+            <state relative-caret-position="510">
+              <caret line="30" column="39" selection-start-line="30" selection-start-column="21" selection-end-line="30" selection-end-column="39" />
             </state>
           </provider>
         </entry>
@@ -70,8 +71,8 @@
       <file leaf-file-name="pagina3.component.ts" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/FrontExamen/src/app/Componentes/pagina3/pagina3.component.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="27" column="32" selection-start-line="27" selection-start-column="32" selection-end-line="27" selection-end-column="32" />
+            <state relative-caret-position="799">
+              <caret line="53" column="31" selection-start-line="53" selection-start-column="31" selection-end-line="53" selection-end-column="31" />
               <folding>
                 <element signature="e#0#50#0" expanded="true" />
               </folding>
@@ -79,26 +80,32 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="carrito.service.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/FrontExamen/src/app/Services/carrito.service.ts">
+      <file leaf-file-name="crear-libro.component.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/FrontExamen/src/app/Componentes/crear-libro/crear-libro.component.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="262">
-              <caret line="31" column="39" lean-forward="true" selection-start-line="31" selection-start-column="39" selection-end-line="31" selection-end-column="39" />
+            <state relative-caret-position="425">
+              <caret line="29" column="3" selection-start-line="29" selection-start-column="3" selection-end-line="41" selection-end-column="5" />
               <folding>
-                <element signature="e#0#43#0" expanded="true" />
+                <element signature="e#0#50#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pagina4.component.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/FrontExamen/src/app/Componentes/pagina4/pagina4.component.ts">
+      <file leaf-file-name="facturacion.component.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/FrontExamen/src/app/Componentes/facturacion/facturacion.component.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="236">
-              <caret line="33" column="31" selection-start-line="33" selection-start-column="31" selection-end-line="33" selection-end-column="31" />
-              <folding>
-                <element signature="e#0#50#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="323">
+              <caret line="19" selection-start-line="19" selection-end-line="19" selection-end-column="129" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pagina2.component.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/FrontExamen/src/app/Componentes/pagina2/pagina2.component.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="850">
+              <caret line="50" column="43" selection-start-line="50" selection-start-column="43" selection-end-line="50" selection-end-column="43" />
             </state>
           </provider>
         </entry>
@@ -106,20 +113,8 @@
       <file leaf-file-name="libro.service.ts" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/FrontExamen/src/app/Services/libro.service.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="156">
-              <caret line="15" column="38" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="38" />
-              <folding>
-                <element signature="e#0#43#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="datos-usuario.service.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/FrontExamen/src/app/Services/datos-usuario.service.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="78">
-              <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="55" />
+            <state relative-caret-position="731">
+              <caret line="50" column="28" selection-start-line="50" selection-start-column="28" selection-end-line="50" selection-end-column="28" />
               <folding>
                 <element signature="e#0#43#0" expanded="true" />
               </folding>
@@ -143,10 +138,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/FrontExamen/src/app/Componentes/autor/autor.component.css" />
-        <option value="$PROJECT_DIR$/FrontExamen/src/app/detalle-libro/detalle-libro.component.html" />
-        <option value="$PROJECT_DIR$/FrontExamen/src/app/detalle-libro/detalle-libro.component.ts" />
-        <option value="$PROJECT_DIR$/FrontExamen/src/app/Componentes/Libros/libro.component.css" />
         <option value="$PROJECT_DIR$/FrontExamen/src/app/Componentes/home-detalle/home-detalle.component.html" />
         <option value="$PROJECT_DIR$/Backend/config/routes.js" />
         <option value="$PROJECT_DIR$/Backend/config/security.js" />
@@ -156,44 +147,48 @@
         <option value="$PROJECT_DIR$/FrontExamen/src/app/app.component.css" />
         <option value="$PROJECT_DIR$/FrontExamen/src/app/Componentes/input-search/input-search.component.html" />
         <option value="$PROJECT_DIR$/FrontExamen/src/app/Componentes/input-search/input-search.component.ts" />
-        <option value="$PROJECT_DIR$/FrontExamen/src/app/Componentes/autor/autor.component.ts" />
         <option value="$PROJECT_DIR$/FrontExamen/src/app/Componentes/detalle-autor/detalle-autor.component.html" />
-        <option value="$PROJECT_DIR$/FrontExamen/src/app/Componentes/Libros/libro.component.ts" />
-        <option value="$PROJECT_DIR$/FrontExamen/src/app/Componentes/home/home.component.ts" />
-        <option value="$PROJECT_DIR$/FrontExamen/src/app/Services/autor.service.ts" />
         <option value="$PROJECT_DIR$/FrontExamen/src/app/Books.ts" />
-        <option value="$PROJECT_DIR$/FrontExamen/src/app/Libro.ts" />
-        <option value="$PROJECT_DIR$/FrontExamen/src/app/Autor.ts" />
-        <option value="$PROJECT_DIR$/FrontExamen/src/app/Componentes/pagina2/pagina2.component.ts" />
-        <option value="$PROJECT_DIR$/FrontExamen/src/app/Componentes/home/home.component.html" />
         <option value="$PROJECT_DIR$/FrontExamen/src/app/Componentes/detalle-libro/detalle-libro.component.html" />
-        <option value="$PROJECT_DIR$/FrontExamen/src/app/Componentes/Libros/libro.component.html" />
-        <option value="$PROJECT_DIR$/FrontExamen/src/app/Componentes/pagina2/pagina2.component.html" />
         <option value="$PROJECT_DIR$/FrontExamen/angular.json" />
         <option value="$PROJECT_DIR$/FrontExamen/src/app/Componentes/login/login.component.css" />
-        <option value="$PROJECT_DIR$/FrontExamen/src/app/app.module.ts" />
         <option value="$PROJECT_DIR$/FrontExamen/src/main.ts" />
         <option value="$PROJECT_DIR$/FrontExamen/src/polyfills.ts" />
         <option value="$PROJECT_DIR$/FrontExamen/src/styles.css" />
-        <option value="$PROJECT_DIR$/FrontExamen/src/app/Componentes/login/login.component.ts" />
-        <option value="$PROJECT_DIR$/FrontExamen/src/app/Componentes/autor/autor.component.html" />
-        <option value="$PROJECT_DIR$/FrontExamen/src/app/Services/libro.service.ts" />
-        <option value="$PROJECT_DIR$/FrontExamen/src/app/Rutas/app.routing.ts" />
-        <option value="$PROJECT_DIR$/FrontExamen/src/app/Componentes/login/login.component.html" />
         <option value="$PROJECT_DIR$/FrontExamen/src/app/Usuario.ts" />
         <option value="$PROJECT_DIR$/FrontExamen/src/app/app.component.ts" />
-        <option value="$PROJECT_DIR$/FrontExamen/src/app/app.component.html" />
         <option value="$PROJECT_DIR$/FrontExamen/src/app/Componentes/formulario-cuenta/formulario-cuenta.component.html" />
         <option value="$PROJECT_DIR$/FrontExamen/src/index.html" />
-        <option value="$PROJECT_DIR$/FrontExamen/src/app/Services/datos-usuario.service.ts" />
         <option value="$PROJECT_DIR$/FrontExamen/src/app/Componentes/formulario-cuenta/formulario-cuenta.component.ts" />
         <option value="$PROJECT_DIR$/FrontExamen/src/app/Componentes/facturacion/facturacion.component.html" />
         <option value="$PROJECT_DIR$/FrontExamen/src/app/Componentes/facturacion/facturacion.component.ts" />
-        <option value="$PROJECT_DIR$/FrontExamen/src/app/Componentes/pagina3/pagina3.component.ts" />
-        <option value="$PROJECT_DIR$/FrontExamen/src/app/Componentes/pagina3/pagina3.component.html" />
         <option value="$PROJECT_DIR$/FrontExamen/src/app/Services/carrito.service.ts" />
-        <option value="$PROJECT_DIR$/FrontExamen/src/app/Componentes/pagina4/pagina4.component.ts" />
+        <option value="$PROJECT_DIR$/FrontExamen/src/app/Autor.ts" />
+        <option value="$PROJECT_DIR$/FrontExamen/src/app/app.component.html" />
+        <option value="$PROJECT_DIR$/FrontExamen/src/app/Componentes/crear-autor/crear-autor.component.ts" />
+        <option value="$PROJECT_DIR$/FrontExamen/src/app/Componentes/crear-autor/crear-autor.component.html" />
+        <option value="$PROJECT_DIR$/FrontExamen/src/app/Componentes/crear-libro/crear-libro.component.html" />
+        <option value="$PROJECT_DIR$/FrontExamen/src/app/Libro.ts" />
+        <option value="$PROJECT_DIR$/FrontExamen/src/app/Componentes/crear-libro/crear-libro.component.ts" />
+        <option value="$PROJECT_DIR$/FrontExamen/src/app/Componentes/autor/autor.component.ts" />
+        <option value="$PROJECT_DIR$/FrontExamen/src/app/Componentes/Libros/libro.component.ts" />
+        <option value="$PROJECT_DIR$/FrontExamen/src/app/Componentes/Libros/libro.component.html" />
+        <option value="$PROJECT_DIR$/FrontExamen/src/app/app.module.ts" />
+        <option value="$PROJECT_DIR$/FrontExamen/src/app/Componentes/autor/autor.component.html" />
+        <option value="$PROJECT_DIR$/FrontExamen/src/app/Services/datos-usuario.service.ts" />
+        <option value="$PROJECT_DIR$/FrontExamen/src/app/Rutas/app.routing.ts" />
+        <option value="$PROJECT_DIR$/FrontExamen/src/app/Componentes/login/login.component.ts" />
+        <option value="$PROJECT_DIR$/FrontExamen/src/app/Services/autor.service.ts" />
+        <option value="$PROJECT_DIR$/FrontExamen/src/app/Componentes/pagina2/pagina2.component.ts" />
+        <option value="$PROJECT_DIR$/FrontExamen/src/app/Componentes/home/home.component.ts" />
+        <option value="$PROJECT_DIR$/FrontExamen/src/app/Componentes/home/home.component.html" />
+        <option value="$PROJECT_DIR$/FrontExamen/src/app/Componentes/pagina3/pagina3.component.ts" />
+        <option value="$PROJECT_DIR$/FrontExamen/src/app/Services/libro.service.ts" />
+        <option value="$PROJECT_DIR$/FrontExamen/src/app/Componentes/pagina2/pagina2.component.html" />
+        <option value="$PROJECT_DIR$/FrontExamen/src/app/Componentes/pagina3/pagina3.component.html" />
+        <option value="$PROJECT_DIR$/FrontExamen/src/app/Componentes/login/login.component.html" />
         <option value="$PROJECT_DIR$/FrontExamen/src/app/Componentes/pagina4/pagina4.component.html" />
+        <option value="$PROJECT_DIR$/FrontExamen/src/app/Componentes/pagina4/pagina4.component.ts" />
       </list>
     </option>
   </component>
@@ -225,6 +220,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -274,6 +270,24 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="Componentes" type="462c0819:PsiDirectoryNode" />
+              <item name="crear-autor" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ExamenJavaScriptSegundoBimestre" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ExamenJavaScriptSegundoBimestre" type="462c0819:PsiDirectoryNode" />
+              <item name="FrontExamen" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Componentes" type="462c0819:PsiDirectoryNode" />
+              <item name="crear-libro" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ExamenJavaScriptSegundoBimestre" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ExamenJavaScriptSegundoBimestre" type="462c0819:PsiDirectoryNode" />
+              <item name="FrontExamen" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Componentes" type="462c0819:PsiDirectoryNode" />
               <item name="facturacion" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -302,15 +316,6 @@
               <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="Componentes" type="462c0819:PsiDirectoryNode" />
               <item name="input-search" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ExamenJavaScriptSegundoBimestre" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ExamenJavaScriptSegundoBimestre" type="462c0819:PsiDirectoryNode" />
-              <item name="FrontExamen" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="Componentes" type="462c0819:PsiDirectoryNode" />
-              <item name="Libros" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ExamenJavaScriptSegundoBimestre" type="b2602c69:ProjectViewProjectNode" />
@@ -354,13 +359,20 @@
               <item name="FrontExamen" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Rutas" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ExamenJavaScriptSegundoBimestre" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ExamenJavaScriptSegundoBimestre" type="462c0819:PsiDirectoryNode" />
+              <item name="FrontExamen" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="Services" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -371,8 +383,7 @@
     <property name="node.js.selected.package.prettier" value="" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="C:/Program Files/nodejs/node" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="project.scopes" />
-    <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="ts.external.directory.path" value="$PROJECT_DIR$/FrontExamen/node_modules/typescript/lib" />
   </component>
   <component name="RecentsManager">
@@ -418,12 +429,15 @@
       <workItem from="1531944850545" duration="2659000" />
       <workItem from="1532037033854" duration="11191000" />
       <workItem from="1532179039520" duration="15095000" />
-      <workItem from="1532213761177" duration="38080000" />
+      <workItem from="1532213761177" duration="38269000" />
+      <workItem from="1532309602956" duration="23927000" />
+      <workItem from="1532373769715" duration="8836000" />
+      <workItem from="1532393681443" duration="3221000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="124584000" />
+    <option name="totallyTimeSpent" value="160757000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -437,7 +451,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.27871364" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.28" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -446,7 +460,7 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32771823" />
+      <window_info active="true" anchor="bottom" id="Find" order="1" visible="true" weight="0.3276923" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -461,88 +475,45 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Backend/config/routes.js">
+    <entry file="file://$PROJECT_DIR$/FrontExamen/src/app/Autor.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="28" column="4" selection-start-line="28" selection-start-column="4" selection-end-line="28" selection-end-column="4" />
+        <state relative-caret-position="104">
+          <caret line="4" column="1" lean-forward="true" selection-start-line="4" selection-start-column="1" selection-end-line="8" selection-end-column="14" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Backend/config/security.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="338">
-          <caret line="31" column="21" lean-forward="true" selection-start-line="31" selection-start-column="21" selection-end-line="31" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FrontExamen/src/app/Componentes/home-detalle/home-detalle.component.html" />
-    <entry file="file://$PROJECT_DIR$/FrontExamen/src/app/app.component.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="586">
-          <caret line="26" column="1" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FrontExamen/src/app/Componentes/Libros/libro.component.spec.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#73#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FrontExamen/src/app/Componentes/detalle-autor/detalle-autor.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-280">
-          <caret line="3" column="1" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FrontExamen/src/app/Componentes/detalle-autor/detalle-autor.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FrontExamen/src/app/Books.ts">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/FrontExamen/src/app/Componentes/home/home.component.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="26" column="23" selection-start-line="26" selection-start-column="23" selection-end-line="26" selection-end-column="23" />
-          <folding>
-            <element signature="e#0#50#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="1170">
+          <caret line="45" selection-start-line="45" selection-end-line="45" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/FrontExamen/src/app/Componentes/detalle-libro/detalle-libro.component.ts">
+    <entry file="file://$PROJECT_DIR$/FrontExamen/src/app/Services/datos-usuario.service.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-208">
-          <caret line="3" column="1" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
+        <state relative-caret-position="728">
+          <caret line="28" column="3" lean-forward="true" selection-start-line="22" selection-start-column="2" selection-end-line="28" selection-end-column="3" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/FrontExamen/src/app/Componentes/detalle-libro/detalle-libro.component.html">
+    <entry file="file://$PROJECT_DIR$/FrontExamen/src/app/Services/autor.service.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="9" />
+        <state relative-caret-position="1248">
+          <caret line="48" column="9" selection-start-line="48" selection-start-column="9" selection-end-line="48" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/FrontExamen/src/app/Componentes/autor/autor.component.ts">
+    <entry file="file://$PROJECT_DIR$/FrontExamen/src/app/Componentes/home/home.component.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="338">
-          <caret line="13" column="16" lean-forward="true" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
-          <folding>
-            <element signature="e#0#55#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="2210">
+          <caret line="85" column="42" selection-start-line="85" selection-start-column="42" selection-end-line="85" selection-end-column="42" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/FrontExamen/src/app/Componentes/detalle-autor/detalle-autor.component.ts" />
+    <entry file="file://$PROJECT_DIR$/FrontExamen/src/app/Componentes/detalle-autor/detalle-autor.component.html" />
+    <entry file="file://$PROJECT_DIR$/FrontExamen/src/app/Componentes/detalle-libro/detalle-libro.component.ts" />
+    <entry file="file://$PROJECT_DIR$/FrontExamen/src/app/Componentes/detalle-libro/detalle-libro.component.html" />
     <entry file="file://$PROJECT_DIR$/FrontExamen/angular.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="269">
@@ -578,162 +549,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/FrontExamen/src/app/Componentes/home/home.component.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FrontExamen/src/app/Autor.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FrontExamen/src/app/Libro.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FrontExamen/src/app/Componentes/pagina2/pagina2.component.spec.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#73#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FrontExamen/src/app/Componentes/input-search/input-search.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="26">
-          <caret line="27" column="2" selection-start-line="27" selection-start-column="2" selection-end-line="27" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FrontExamen/src/app/Componentes/login/login.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="8" column="11" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FrontExamen/src/app/Rutas/app.routing.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-156">
-          <caret line="3" column="69" selection-start-line="3" selection-start-column="69" selection-end-line="3" selection-end-column="69" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FrontExamen/src/app/Componentes/home/home.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="11" column="45" lean-forward="true" selection-start-line="11" selection-start-column="45" selection-end-line="11" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FrontExamen/src/app/Componentes/Libros/libro.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="52">
-          <caret line="2" column="104" selection-start-line="2" selection-start-column="104" selection-end-line="2" selection-end-column="104" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FrontExamen/src/app/Componentes/Libros/libro.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="26">
-          <caret line="2" column="34" selection-start-line="2" selection-start-column="34" selection-end-line="2" selection-end-column="34" />
-          <folding>
-            <element signature="e#0#55#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/FrontExamen/src/app/app.component.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="234">
           <caret line="16" selection-start-line="16" selection-end-line="16" />
-          <folding>
-            <element signature="e#0#42#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FrontExamen/src/app/Componentes/formulario-cuenta/formulario-cuenta.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="139">
-          <caret line="15" column="10" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FrontExamen/src/app/app.module.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="910">
-          <caret line="35" column="129" selection-start-line="35" selection-start-column="129" selection-end-line="35" selection-end-column="129" />
-          <folding>
-            <element signature="e#0#58#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FrontExamen/src/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="373">
-          <caret line="14" column="93" selection-start-line="14" selection-start-column="93" selection-end-line="14" selection-end-column="93" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FrontExamen/src/app/app.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="9" column="48" selection-start-line="9" selection-start-column="48" selection-end-line="9" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FrontExamen/src/app/Componentes/login/login.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="26">
-          <caret line="1" column="2" selection-start-line="1" selection-start-column="2" selection-end-line="3" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FrontExamen/src/app/Componentes/input-search/input-search.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="26">
-          <caret line="1" column="26" lean-forward="true" selection-start-line="1" selection-start-column="26" selection-end-line="1" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FrontExamen/src/app/Services/autor.service.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="395">
-          <caret line="33" column="13" lean-forward="true" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
-          <folding>
-            <element signature="e#0#43#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FrontExamen/src/app/Componentes/pagina2/pagina2.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="373">
-          <caret line="36" column="79" selection-start-line="36" selection-start-column="79" selection-end-line="36" selection-end-column="79" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FrontExamen/src/app/Componentes/autor/autor.component.spec.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#73#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FrontExamen/src/app/Componentes/autor/autor.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="11" column="79" selection-start-line="11" selection-start-column="42" selection-end-line="11" selection-end-column="79" />
         </state>
       </provider>
     </entry>
@@ -744,10 +563,220 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/FrontExamen/src/app/Componentes/pagina3/pagina3.component.spec.ts" />
+    <entry file="file://$PROJECT_DIR$/FrontExamen/src/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="416">
+          <caret line="14" column="93" selection-start-line="14" selection-start-column="93" selection-end-line="14" selection-end-column="93" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FrontExamen/src/app/app.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="9" column="34" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FrontExamen/src/app/Componentes/crear-autor/crear-autor.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="12" selection-start-line="12" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FrontExamen/src/app/Libro.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="10" column="16" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FrontExamen/node_modules/@angular/core/src/metadata/lifecycle_hooks.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="61" column="12" lean-forward="true" selection-start-line="61" selection-start-column="12" selection-end-line="61" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FrontExamen/src/app/Componentes/Libros/libro.component.ts" />
+    <entry file="file://$PROJECT_DIR$/FrontExamen/src/app/app.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="25" column="25" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/FrontExamen/src/app/Componentes/formulario-cuenta/formulario-cuenta.component.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="19" column="31" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
+        <state relative-caret-position="182">
+          <caret line="18" column="70" selection-start-line="18" selection-start-column="70" selection-end-line="18" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FrontExamen/src/app/Componentes/login/login.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="9" column="9" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FrontExamen/src/app/Componentes/input-search/input-search.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="26">
+          <caret line="1" column="24" selection-start-line="1" selection-start-column="24" selection-end-line="1" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FrontExamen/src/app/Componentes/input-search/input-search.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="474">
+          <caret line="27" column="2" selection-start-line="27" selection-start-column="2" selection-end-line="27" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FrontExamen/src/app/Componentes/autor/autor.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="7" column="31" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FrontExamen/src/app/Componentes/autor/autor.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="3" column="1" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FrontExamen/src/app/Services/carrito.service.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="314">
+          <caret line="36" column="6" lean-forward="true" selection-start-line="29" selection-start-column="2" selection-end-line="36" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FrontExamen/src/app/Componentes/formulario-cuenta/formulario-cuenta.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="15" column="10" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FrontExamen/src/app/Componentes/crear-autor/crear-autor.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="395">
+          <caret line="24" column="19" lean-forward="true" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FrontExamen/src/app/Autor.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="8" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FrontExamen/src/app/Services/datos-usuario.service.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="28" column="3" selection-start-line="22" selection-start-column="2" selection-end-line="28" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FrontExamen/src/app/Services/autor.service.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="41" column="2" selection-start-line="41" selection-start-column="2" selection-end-line="41" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FrontExamen/src/app/Componentes/pagina2/pagina2.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="339">
+          <caret line="38" column="3" selection-start-line="38" selection-start-column="3" selection-end-line="38" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FrontExamen/src/app/Componentes/home/home.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-431">
+          <caret line="2" column="37" selection-start-line="2" selection-start-column="37" selection-end-line="2" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FrontExamen/src/app/Componentes/home/home.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="34" column="29" selection-start-line="34" selection-start-column="29" selection-end-line="34" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FrontExamen/src/app/Componentes/facturacion/facturacion.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="40" column="3" selection-start-line="31" selection-start-column="2" selection-end-line="40" selection-end-column="3" />
+          <folding>
+            <element signature="e#0#50#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FrontExamen/src/app/Componentes/crear-libro/crear-libro.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" selection-start-line="1" selection-end-line="45" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FrontExamen/src/app/Componentes/crear-libro/crear-libro.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="29" column="3" selection-start-line="29" selection-start-column="3" selection-end-line="41" selection-end-column="5" />
+          <folding>
+            <element signature="e#0#50#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FrontExamen/src/app/Services/libro.service.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="731">
+          <caret line="50" column="28" selection-start-line="50" selection-start-column="28" selection-end-line="50" selection-end-column="28" />
+          <folding>
+            <element signature="e#0#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FrontExamen/src/app/Componentes/pagina3/pagina3.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="799">
+          <caret line="53" column="31" selection-start-line="53" selection-start-column="31" selection-end-line="53" selection-end-column="31" />
+          <folding>
+            <element signature="e#0#50#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FrontExamen/src/app/Componentes/pagina2/pagina2.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="850">
+          <caret line="50" column="43" selection-start-line="50" selection-start-column="43" selection-end-line="50" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FrontExamen/src/app/Componentes/pagina3/pagina3.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="765">
+          <caret line="45" column="26" selection-start-line="45" selection-start-column="26" selection-end-line="45" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FrontExamen/src/app/Rutas/app.routing.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="12" column="45" selection-start-line="12" selection-start-column="45" selection-end-line="12" selection-end-column="45" />
           <folding>
             <element signature="e#0#50#0" expanded="true" />
           </folding>
@@ -756,104 +785,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/FrontExamen/src/app/Componentes/facturacion/facturacion.component.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="58" column="12" selection-start-line="58" selection-start-column="12" selection-end-line="58" selection-end-column="12" />
-          <folding>
-            <element signature="e#884#891#1" expanded="true" />
-          </folding>
+        <state relative-caret-position="323">
+          <caret line="19" selection-start-line="19" selection-end-line="19" selection-end-column="129" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/FrontExamen/src/app/Componentes/facturacion/facturacion.component.ts">
+    <entry file="file://$PROJECT_DIR$/FrontExamen/src/app/Componentes/login/login.component.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="33" column="33" lean-forward="true" selection-start-line="33" selection-start-column="33" selection-end-line="33" selection-end-column="33" />
-          <folding>
-            <element signature="e#0#50#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FrontExamen/src/app/Componentes/pagina3/pagina3.component.spec.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#73#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FrontExamen/src/app/Services/libro.service.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="15" column="38" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="38" />
-          <folding>
-            <element signature="e#0#43#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FrontExamen/src/app/Services/datos-usuario.service.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="78">
-          <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="55" />
-          <folding>
-            <element signature="e#0#43#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FrontExamen/src/app/Componentes/pagina2/pagina2.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-52">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" selection-end-column="15" />
-          <folding>
-            <element signature="e#0#55#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FrontExamen/src/app/Componentes/pagina3/pagina3.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="27" column="32" selection-start-line="27" selection-start-column="32" selection-end-line="27" selection-end-column="32" />
-          <folding>
-            <element signature="e#0#50#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FrontExamen/src/app/Componentes/pagina3/pagina3.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="19" column="37" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FrontExamen/src/app/Services/carrito.service.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="262">
-          <caret line="31" column="39" lean-forward="true" selection-start-line="31" selection-start-column="39" selection-end-line="31" selection-end-column="39" />
-          <folding>
-            <element signature="e#0#43#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FrontExamen/src/app/Componentes/pagina4/pagina4.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="236">
-          <caret line="33" column="31" selection-start-line="33" selection-start-column="31" selection-end-line="33" selection-end-column="31" />
-          <folding>
-            <element signature="e#0#50#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="136">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/FrontExamen/src/app/Componentes/pagina4/pagina4.component.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="23" column="51" selection-start-line="23" selection-start-column="51" selection-end-line="23" selection-end-column="51" />
+        <state relative-caret-position="510">
+          <caret line="30" column="39" selection-start-line="30" selection-start-column="21" selection-end-line="30" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FrontExamen/src/app/Componentes/pagina4/pagina4.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="41" column="1" lean-forward="true" selection-start-line="41" selection-start-column="1" selection-end-line="44" selection-end-column="5" />
+          <folding>
+            <element signature="e#0#50#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

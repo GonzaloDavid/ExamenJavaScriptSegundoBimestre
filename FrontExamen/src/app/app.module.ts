@@ -6,7 +6,6 @@ import { AutorComponent } from './Componentes/autor/autor.component';
 import { InputSearchComponent } from './Componentes/input-search/input-search.component';
 import {HttpClientModule} from "@angular/common/http";
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
-import { LibroComponent } from './Componentes/Libros/libro.component';
 import { FacturacionComponent } from './Componentes/facturacion/facturacion.component';
 import {MatInputModule} from '@angular/material';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
@@ -18,12 +17,13 @@ import { Pagina4Component } from './Componentes/pagina4/pagina4.component';
 import { FormularioCuentaComponent } from './Componentes/formulario-cuenta/formulario-cuenta.component';
 import { LoginComponent } from './Componentes/login/login.component';
 import {NoopAnimationsModule} from '@angular/platform-browser/animations';
+import { CrearAutorComponent } from './Componentes/crear-autor/crear-autor.component';
+import { CrearLibroComponent } from './Componentes/crear-libro/crear-libro.component';
 @NgModule({
   declarations: [
     AppComponent,
     AutorComponent,
     InputSearchComponent,
-    LibroComponent,
     FacturacionComponent,
     HomeComponent,
     Pagina2Component,
@@ -31,6 +31,8 @@ import {NoopAnimationsModule} from '@angular/platform-browser/animations';
     Pagina4Component,
     FormularioCuentaComponent,
     LoginComponent,
+    CrearAutorComponent,
+    CrearLibroComponent,
   ],
   imports: [
     BrowserModule, HttpClientModule, BrowserAnimationsModule,FormsModule,ReactiveFormsModule,MatInputModule,NoopAnimationsModule,routing,

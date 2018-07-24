@@ -2,7 +2,7 @@
     <div class="row">
       <div class="col-6" >
         <div class="card bg-dark text-white">
-          <img class="card-img" src="https://www.cinemascomics.com/wp-content/uploads/2018/01/ant-man-3.jpg" alt="Card image">
+          <img class="card-img" src={{libro.url}} alt="Card image">
           <div class="card-img-overlay">
             <h5 class="card-title">DATOS DE LIBRO</h5>
             <p>Nombre: {{libro.nombre}}</p>
@@ -14,14 +14,91 @@
         </div>
       </div>
       <div class="col-6" align="center">
-        <br><br><br><br>
-        <button (click)="add()" type="button"  class="btn btn-primary" [routerLink]="['/pagina4/',libro.id]" >AÑADIR AL CARRITO
-          <script type="text/javascript">
-            alert("AÑADIDO AL CARRITO");
-          </script>
-        </button>
-      </div>
+     <div class="col-6">
+       <br><br><br><br>
+       <button (click)=" add()" type="button"  class="btn btn-primary" [routerLink]="['/pagina4/',libro.id]" >
+         AÑADIR AL CARRITO
+       </button>
+     </div>
+     <div class="col-6">
+       <br><br><br><br>
+       <button type="button" class="btn btn-warning" data-toggle="modal" data-target="#myModal">EDITAR</button>
+     </div>
+    </div>
+
     </div>
   </div>
+
+
+
+ <div class="modal" id="myModal">
+   <div class="modal-dialog">
+     <div class="modal-content">
+       <!-- Modal Header -->
+       <div class="modal-header">
+         <h4 class="modal-title">ACTUALIZAR DATOS LIBRO</h4>
+         <button type="button" class="close" data-dismiss="modal">&times;</button>
+       </div>
+
+       <!-- Modal body -->
+       <div class="modal-body">
+
+         <div class="class" align="center">
+           <mat-form-field class="example-form">
+             <input matInput placeholder="Nombre" [(ngModel)]="InombreL">
+           </mat-form-field>
+         </div>
+         <div class="class" align="center">
+           <mat-form-field class="example-form">
+             <input matInput placeholder="Numero de paginas" [(ngModel)]="INumeroPagL">
+           </mat-form-field>
+         </div>
+         <div class="class" align="center">
+           <mat-form-field class="example-form">
+             <input matInput placeholder="Edicion" [(ngModel)]="IedicionL">
+           </mat-form-field>
+         </div>
+         <div class="class" align="center">
+           <mat-form-field class="example-form">
+             <input matInput placeholder="Fecha de publicación" [(ngModel)]="IfechaPublicacionL">
+           </mat-form-field>
+         </div>
+         <div class="class" align="center">
+           <mat-form-field class="example-form">
+             <input matInput placeholder="Nombre editorial" [(ngModel)]="InombreEditorial">
+           </mat-form-field>
+         </div>
+         <div class="class" align="center">
+           <mat-form-field class="example-form">
+             <input matInput placeholder="Id Autor" [(ngModel)]="IdOwnerL">
+           </mat-form-field>
+         </div>
+         <div class="class" align="center">
+           <mat-form-field class="example-form">
+             <input matInput placeholder="Costo de Libro" [(ngModel)]="IcostoL">
+           </mat-form-field>
+         </div>
+         <div class="class" align="center">
+           <mat-form-field class="example-form">
+             <input matInput placeholder="Cantidad en stock" [(ngModel)]="IcantidadL">
+           </mat-form-field>
+         </div>
+         <div class="class" align="center">
+           <mat-form-field class="example-form">
+             <input matInput placeholder="URL imagen" [(ngModel)]="IurlL">
+           </mat-form-field>
+         </div>
+       </div>
+
+       <!-- Modal footer -->
+       <div class="modal-footer">
+         <button (click)="EnviarActualizacion()" type="button" class="btn btn-danger" data-dismiss="modal" >GUARDAR</button>
+       </div>
+
+     </div>
+   </div>
+ </div>
+
+
 
 

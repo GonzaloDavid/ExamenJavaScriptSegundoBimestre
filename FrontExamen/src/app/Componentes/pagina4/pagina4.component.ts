@@ -13,6 +13,8 @@ import {CarritoService} from "../../Services/carrito.service";
 export class Pagina4Component implements OnInit {
   libro: Libro;
   libros1:Libro[];
+  valor:number;
+  i:number;
   constructor(private rutas:  ActivatedRoute,
               private servicioLibro: LibroService,
               private servicioCarrito: CarritoService)
@@ -32,6 +34,17 @@ export class Pagina4Component implements OnInit {
   deleteCarrito(libro: Libro): void {
     this.libros1 = this.libros1.filter(h => h !== libro);
     this.servicioCarrito.deleteCarrito(libro).subscribe();
+  }
+  CalculoTotalLibros()
+  {
+    this.valor=0;
+   // this.valor+=this.libros1.
+     /* for(this.i=0;this.i<this.libros1.length;this.i++)
+    {
+
+    }
+*/
+    return this.valor;
   }
 
   ngOnInit() {

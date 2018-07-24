@@ -13,6 +13,13 @@ import {LibroService} from "../../Services/libro.service";
 export class Pagina2Component implements OnInit {
   autor: Autor;
   libro: Libro;
+  autor12:Autor;
+  IBname:string;
+  IMnombre:string;
+  IMapellido:string;
+  IMNumeroLibros:string;
+  IMFechaNacimiento:string;
+  IMUrlImagen:string;
   constructor(private rutas:  ActivatedRoute,
               private servicioAutor: AutorService,
               private servicioLibro: LibroService)
@@ -28,6 +35,19 @@ export class Pagina2Component implements OnInit {
         this.libro= libro;
         console.log('JSON LIBRROO:',this.libro)
       })
+    })
+  }
+  EnviarActualizacionUsuario()
+  {
+    this.autor12=new Autor();
+    this.autor12.id=this.autor.id;
+    this.autor12.nombre=this.IMnombre;
+    this.autor12.apellido=this.IMapellido;
+    this.autor12.numeroLibros=this.IMNumeroLibros;
+    this.autor12.fechaNacimiento=this.IMFechaNacimiento;
+    this.autor12.numeroLibros=this.IMNumeroLibros;
+
+    this.servicioAutor.updateAutor(this.autor12).subscribe(response => {
     })
   }
   ngOnInit() {

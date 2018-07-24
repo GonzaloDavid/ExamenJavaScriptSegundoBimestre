@@ -6,5 +6,6 @@ export class Autor {
   apellido: string;
   numeroLibros: string;
   fechaNacimiento: string;
+  url: string;
   libros: Libro[];
 }

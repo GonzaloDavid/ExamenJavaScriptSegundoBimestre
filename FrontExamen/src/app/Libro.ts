@@ -5,4 +5,8 @@ export class Libro {
   fechaPublicacion: string;
   nombreEditorial: string;
   id : number;
+  url: string;
+  costo:number;
+  cantidad:number;
+  owner: number;
 }

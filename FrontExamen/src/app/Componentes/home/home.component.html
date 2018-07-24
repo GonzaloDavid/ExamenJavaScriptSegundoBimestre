@@ -1,14 +1,46 @@
 <h1>EXAMEN DE JAVASCRIPT</h1>
-<app-input-search (autores)="mostrarBusqueda($event)"></app-input-search>
-<br>
-<br>
-<div class="row" *ngIf="hayAutores">
-  <div class="col-1-4">
-    <app-autor  [autorp]="autores"></app-autor>
-  </div>
+<div class="div"><input type="text" placehloder="Search.." name="search" [(ngModel)]="IBname">
+  <button (click)="DetalleByName(IBname)" value="BUSCAR" ><i class="fa fa-search"></i></button>
 </div>
-<div class="row" *ngIf="hayLibros">
-  <div class="col-1-4">
-    <app-libro [librop]="libros"></app-libro>
+
+<br>
+<br>
+<div class="row">
+  <a *ngFor="let autor of autorp" class="col-6">
+    <div class="card" style="width: 18rem;">
+      <img class="card-img-top" src={{autor.url}} width="100" height="300" alt="Card image cap">
+      <div class="card-body">
+        <h5 class="card-title">DATOS AUTOR: </h5>
+        <p class="card-text"> Nombre: {{autor.nombre}}</p>
+        <p class="card-text">Apellido: {{autor.apellido}}</p>
+        <p class="card-text">Fecha Nacimiento: {{autor.fechaNacimiento}}</p>
+        <p class="card-text">Numero de libros: {{autor.numeroLibros}}</p>
+        <a href="#" class="btn btn-primary" [routerLink]="['/paginaD/',autor.id]">Mostrar Libros</a>
+        <br><br>
+        <button (click)="deleteAutor(autor.id)" type="button" class="btn btn-danger">ELIMINAR</button>
+      </div>
+    </div>
+  </a>
+  <div class="div">
   </div>
+
+</div>
+<br><br><br>
+<div class="row">
+  <a *ngFor="let libro of librop" class="col-6">
+    <div class="card" style="width: 18rem;">
+      <img class="card-img-top" src="{{libro.url}}"  width="100" height="300" >
+      <div class="card-body">
+        <p class="card-text"><strong>DATOS DE LIBRO</strong></p>
+        <p class="card-text">Nombre: {{libro.nombre}}</p>
+        <p class="card-text">Numero de Paginas: {{libro.numeroPaginas}}</p>
+        <p class="card-text">Numero de Edicion: {{libro.edicion}}</p>
+        <p class="card-text">Fecha de publicacion: {{libro.fechaPublicacion}}</p>
+        <p class="card-text">Nombre editorial: {{libro.nombreEditorial}}</p>
+        <p class="card-text">Costo: {{libro.costo}}</p>
+        <p class="card-text">Cantidad: {{libro.cantidad}}</p>
+        <button (click)="deleteLibro(libro.id)" type="button" class="btn btn-danger">ELIMINAR</button>
+      </div>
+    </div>
+  </a>
 </div>

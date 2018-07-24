@@ -1,0 +1,32 @@
+<h5>INGRESAR UN NUEVO AUTOR</h5>
+<div class="row">
+  <mat-form-field class="example-form">
+    <input matInput placeholder="Nombre" [(ngModel)]="InombreA">
+  </mat-form-field>
+</div>
+<div class="row">
+  <mat-form-field class="example-form">
+    <input matInput placeholder="Apellido" [(ngModel)]="IapellidoA">
+  </mat-form-field>
+</div>
+<div class="row">
+  <mat-form-field class="example-form">
+    <input matInput placeholder="Numero Libros" [(ngModel)]="InumeroLibroA">
+  </mat-form-field>
+</div>
+<div class="row">
+  <mat-form-field class="example-form">
+    <input matInput placeholder="Fecha de nacimiento" [(ngModel)]="IfechaNacimientoA">
+  </mat-form-field>
+</div>
+<div class="row">
+  <mat-form-field class="example-form">
+    <input matInput placeholder="URL de imagen" [(ngModel)]="IurlA">
+  </mat-form-field>
+</div>
+<div class="row">
+  <button onclick="alert('¡SE HA REGISTRADO UN NUEVO AUTOR CORRECTAMENTE!')" (click)="add()" type="button" class="btn btn-success">GUARDAR</button>
+</div>
+
+
+

@@ -21,7 +21,7 @@ export class DatosUsuarioService {
     return this.http.get<Usuario>(url);
   }
   updateUsuario (usuario: Usuario): Observable<any>  {
-    const url = `${this.urlUsuario}/${2}`;
+    const url = `${this.urlUsuario}/${usuario.id}`;
     return this.http.put(url, usuario, httpOptions).pipe(
       tap(_ => this.log(`updated cluster id=${2}`)),
       catchError(this.handleError<any>('updateuser'))
